@@ -7,8 +7,8 @@
 
         // Database kodepromo
         const promoCodes = {
-            'DISKON': {discount:11, type:'fixed', description: 'Diskon 11%'},
-
+            'CIHUY': {discount:11, type:'fixed', description: 'Diskon 11%'},
+            'DUAPULUH': {discount:20, type:'fixed', description: 'Diskon 20%'},
         }
         
 
