@@ -399,6 +399,6 @@
             // Focus ke input nama saat halaman dimuat
             document.getElementById('customerName').focus();
         }
-
+        
         // Jalankan saat DOM siap
         document.addEventListener('DOMContentLoaded', initApp);
