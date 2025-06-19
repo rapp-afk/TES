@@ -7,8 +7,10 @@
 
         // Database kodepromo
         const promoCodes = {
-            'CIHUY': {discount:11, type:'fixed', description: 'Diskon 11%'},
-            'DUAPULUH': {discount:20, type:'fixed', description: 'Diskon 20%'},
+            'CIHUY': {discount:11, type:'percentage', description: 'Diskon 11%'},
+            'DUAPULUH': {discount:20, type:'percentage', description: 'Diskon 20%'},
+            'DISKON50K': {discount:50000, type:'fixed', description: 'Diskon Rp.50,000'},
+
         }
         
 
@@ -399,6 +401,6 @@
             // Focus ke input nama saat halaman dimuat
             document.getElementById('customerName').focus();
         }
-        
+
         // Jalankan saat DOM siap
         document.addEventListener('DOMContentLoaded', initApp);
